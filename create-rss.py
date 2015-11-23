@@ -45,5 +45,4 @@ if __name__ == "__main__":
             fe.description(desc)
             fe.enclosure(url, 0, 'audio/mpeg')
 
-    fg.rss_str(pretty=True)
-    fg.rss_file('wwcpsx-rss.xml')
+    fg.rss_file('wwcpsx-rss.xml', pretty=True)
